@@ -4,6 +4,8 @@ A simple plugin to import any file as a data URI.
 
 Compatible with Rollup and Vite.
 
+This plugin is *not* the same as [`@rollup/plugin-data-uri`](https://npmjs.com/package/@rollup/plugin-data-uri) - this plugin creates data URIs and exports them, whilst `@rollup/plugin-data-uri` allows you to import raw code from data URIs.
+
 ## Usage
 
 ### Configuration
