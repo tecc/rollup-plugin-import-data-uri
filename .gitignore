@@ -1,0 +1,7 @@
+# Project files
+dist/
+node_modules/
+
+# Editor files
+.idea/
+*.iml
