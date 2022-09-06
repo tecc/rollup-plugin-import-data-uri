@@ -1,7 +1,7 @@
 {
     "name": "rollup-plugin-import-data-uri",
     "description": "A simple plugin to import any file as a data URI.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "author": "tecc",
     "repository": {
