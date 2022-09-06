@@ -1,2 +1,1 @@
-export function plugin(): import('rollup').Plugin;
-export default plugin;
+export default function dataURIPlugin(): import('rollup').Plugin;

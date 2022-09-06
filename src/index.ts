@@ -2,7 +2,7 @@ import { lookup } from 'mime-types';
 import { readFileSync } from 'fs';
 import type { Plugin } from 'rollup';
 
-export function plugin(): Plugin {
+export default function plugin(): Plugin {
     return {
         name: 'import-data-uri',
         transform(_, id) {
@@ -18,4 +18,3 @@ export function plugin(): Plugin {
         }
     };
 }
-export default plugin;

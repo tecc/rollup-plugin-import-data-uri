@@ -16,7 +16,8 @@ export default {
         {
             format: 'esm',
             file: pkg.module,
-            sourcemap: true
+            sourcemap: true,
+            exports: 'default'
         }
     ]
 };

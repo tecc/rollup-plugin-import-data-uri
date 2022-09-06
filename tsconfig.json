@@ -12,6 +12,7 @@
         "pretty": true,
         "sourceMap": true,
         "strict": true,
+        "noImplicitAny": false,
         "target": "es2017"
     },
     "exclude": ["dist", "node_modules", "test/types"],
